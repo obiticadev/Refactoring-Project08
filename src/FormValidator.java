@@ -1,12 +1,20 @@
 /**
  * 
  * @author Ruben y Oliver
- * @version 1.0
+ * @version 1.1
  */
 public class FormValidator {
-
+	/** 
+	 * Separador utilizado para validar el formato de las direcciones de correo.
+	 * */
     private static final String SEPARADOR_CORREO = "@";
+    /** 
+     * Longitud exacta que debe tener un Código Postal en España. 
+     * */
 	private static final int CODIGO_POSTAL = 5;
+	/** 
+	 * Longitud mínima requerida para un número de teléfono válido. 
+	 * */
 	private static final int LONGITUD_TELEFONO = 9;
 
 /**
@@ -27,7 +35,7 @@ public class FormValidator {
 
 /**
  * 
- * @param parameterObject Objeto con el campo nombre.
+ * @param parameterObject Objeto con el campo Nombre.
  * @return Si el nombre es correcto.
  */
 	public boolean isNombreValido(DatosFormulario parameterObject) {
