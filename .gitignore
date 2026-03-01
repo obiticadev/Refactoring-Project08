@@ -1,0 +1,15 @@
+# Compilados de Java
+bin/
+*.class
+
+# Ajustes específicos del usuario de Eclipse
+.settings/
+.metadata/
+
+# Archivos de log
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
